@@ -48,7 +48,7 @@ import org.apache.commons.net.ftp.FTPFile;
  * <pre>
  * 【サンプル3】ファイルのPUT
  * 	// PUT処理情報リストを生成
- * 	List<PutData> list = new ArrayList<PutData>();
+ * 	List&lt;PutData&gt; list = new ArrayList&lt;PutData&gt;();
  * 	list.add(new PutData(localFilePath1, remoteDirPath1));
  * 	list.add(new PutData(localFilePath2, remoteDirPath2));
  * 	list.add(new PutData(localFilePath3, remoteDirPath3));
